@@ -105,9 +105,72 @@ namespace app_oop02
 
 
 
+            //Q3
+
+            //a)
+            // Purpose of an Indexer
+            //It allows an object to be accessed like an array:
+
+            //register[0] = "Ali";
 
 
-        }
+
+            //b)
+
+            //        public class StudentRegister
+            //{
+            //    private string[] names = new string[5];
+
+            //    public string this[int index]
+            //    {
+            //        get
+            //        {
+            //            if (index >= 0 && index < names.Length)
+            //                return names[index];
+            //            else
+            //                return "Invalid Index";
+            //        }
+
+            //        set
+            //        {
+            //            if (index >= 0 && index < names.Length)
+            //                names[index] = value;
+            //        }
+            //    }
+            //}
+
+
+
+            //c)
+            //Yes. This is called Indexer Overloading.
+
+        //    public class StudentRegister
+        //{
+        //    private string[] names = new string[5];
+
+        //    public string this[int index]
+        //    {
+        //        get { return names[index]; }
+        //        set { names[index] = value; }
+        //    }
+
+        //    public string this[string name]
+        //    {
+        //        get
+        //        {
+        //            foreach (var n in names)
+        //                if (n == name)
+        //                    return "Found";
+
+        //            return "Not Found";
+        //        }
+        //    }
+        //}
+
+
+
+
+    }
     }
 }
 
