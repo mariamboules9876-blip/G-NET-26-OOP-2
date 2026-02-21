@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using System.IO;
+using System.Runtime.InteropServices;
 using System.Runtime.Intrinsics.X86;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -144,28 +145,44 @@ namespace app_oop02
             //c)
             //Yes. This is called Indexer Overloading.
 
-        //    public class StudentRegister
-        //{
-        //    private string[] names = new string[5];
+            //    public class StudentRegister
+            //{
+            //    private string[] names = new string[5];
 
-        //    public string this[int index]
-        //    {
-        //        get { return names[index]; }
-        //        set { names[index] = value; }
-        //    }
+            //    public string this[int index]
+            //    {
+            //        get { return names[index]; }
+            //        set { names[index] = value; }
+            //    }
 
-        //    public string this[string name]
-        //    {
-        //        get
-        //        {
-        //            foreach (var n in names)
-        //                if (n == name)
-        //                    return "Found";
+            //    public string this[string name]
+            //    {
+            //        get
+            //        {
+            //            foreach (var n in names)
+            //                if (n == name)
+            //                    return "Found";
 
-        //            return "Not Found";
-        //        }
-        //    }
-        //}
+            //            return "Not Found";
+            //        }
+            //    }
+            //}
+
+
+
+
+
+            //Q4
+
+            //a)
+            //static means the variable belongs to the class itself, not to individual objects.
+            //There is only one shared copy among all instances.
+
+
+            //b)
+            //no
+            //Item belongs to a specific object.
+            //A static method does not belong to any object.
 
 
 
