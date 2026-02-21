@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Drawing;
+using System.IO;
 using System.Runtime.Intrinsics.X86;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -69,11 +70,11 @@ namespace app_oop02
 
 
             //c)
-//            No control over data
-//No validation
-//Hard to maintain or modify later
-//Leads to bugs and invalid states
-//Properties provide safe access to data.
+            //            No control over data
+            //No validation
+            //Hard to maintain or modify later
+            //Leads to bugs and invalid states
+            //Properties provide safe access to data.
 
 
 
@@ -81,7 +82,32 @@ namespace app_oop02
 
 
 
+            //Q2
 
-    }
+            //      public class Rectangle
+            //{
+            //    public double Width { get; set; }
+            //    public double Height { get; set; }
+
+            //    public double Area
+            //    {
+            //        get { return Width * Height; }
+            //    }
+            //}
+
+
+
+            //Rectangle r = new Rectangle();
+            //r.Width = 5;
+            //r.Height = 4;
+
+            //Console.WriteLine(r.Area); // Output: 20
+
+
+
+
+
+        }
     }
 }
+
